@@ -2,302 +2,682 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Escher Blocks – 3D Sketch & Doodle App</title>
-    <meta name="description"
-        content="Escher Blocks is a creative 3D sketch and doodle app. Build stunning 3D artwork with intuitive tools." />
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Escher Blocks – 3D Sketch & Doodle App</title>
+  <meta name="description"
+    content="Escher Blocks is a creative 3D sketch and doodle app. Build stunning 3D artwork with intuitive tools." />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
-        body {
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-            background-color: #fff;
-            color: #222;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
-        .hero {
-            flex: 1;
-            width: 100%;
-            min-height: 100vh;
-            background: url('FeatureGraphics.png') center center/cover no-repeat;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-        }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #090909;
+      color: #eee;
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+    }
 
-        .hero-text {
-            position: absolute;
-            top: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            text-align: center;
-            color: #fff;
-            font-size: 2em;
-            z-index: 1;
-        }
+    /* ═══════════════════════════════════════
+       HERO  –  triangle-grid background
+    ═══════════════════════════════════════ */
+    .hero {
+      flex: 1;
+      display: flex;
+      position: relative;
+      overflow: hidden;
+      background-color: #2a2a2a;
+      background-image:
+        repeating-linear-gradient(0deg,   transparent, transparent 29px, black 29px, black 30px),
+        repeating-linear-gradient(60deg,  transparent, transparent 29px, black 29px, black 30px),
+        repeating-linear-gradient(120deg, transparent, transparent 29px, black 29px, black 30px);
 
-        .store-strip {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            display: flex;
-            gap: 40px;
-            justify-content: center;
-            align-items: center;
-            z-index: 10;
-            padding: 20px;
-        }
+      /* ── PORTRAIT default: column, arena at bottom ── */
+      flex-direction: column;
+      padding: 16px;
+      gap: 12px;
+    }
 
-        .store-strip a {
-            display: block;
-            transition: transform 0.2s;
-        }
+    /* ═══════════════════════════════════════
+       APP DETAILS  (portrait = column: row1 over row2)
+    ═══════════════════════════════════════ */
+    .app-details {
+      display: contents;  /* dissolve wrapper — icon-area and text-video-area become direct flex children of .hero */
+    }
 
-        .store-strip a:hover {
-            transform: scale(1.05);
-        }
+    /* Row 1: icon LEFT, text RIGHT */
+    .icon-area {
+      flex: 11 1 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
 
-        .store-strip img {
-            height: 80px;
-            width: auto;
-            display: block;
-        }
+    .icon-title {
+      flex-shrink: 0;
+      padding: 4px 0;
+      width: 100%;
+    }
 
-        .bottom-content {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            z-index: 10;
-        }
+    .app-name-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
 
-        .features {
-            text-align: center;
-            padding: 15px;
-            font-size: 1.1em;
-            background-color: rgba(240, 244, 255, 0.95);
-            backdrop-filter: blur(10px);
-            margin: 0;
-        }
+    .social-links {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-shrink: 0;
+    }
 
-        footer {
-            text-align: center;
-            padding: 15px;
-            font-size: 0.9em;
-            background-color: rgba(238, 238, 238, 0.95);
-            backdrop-filter: blur(10px);
-            margin: 0;
-        }
+    .social-links a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 26px;
+      height: 26px;
+      border-radius: 6px;
+      opacity: 0.85;
+      transition: opacity 0.2s;
+      text-decoration: none;
+    }
 
-        footer a {
-            margin: 0 10px;
-            color: #333;
-            text-decoration: none;
-        }
+    .social-links a:hover { opacity: 1; }
 
-        footer a:hover {
-            text-decoration: underline;
-        }
+    .social-links svg { width: 20px; height: 20px; }
 
-        /* Mobile/Portrait responsive adjustments */
-        @media (max-width: 768px) {
-            .hero {
-                background-image: url('FeatureGraphics-mobile.png');
-                background-position: top center;
-                background-size: contain;
-            }
+    /* portrait: icon LEFT, bullets RIGHT */
+    .icon-body {
+      flex: 1 1 0;
+      min-height: 0;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 10px;
+    }
 
-            .hero-text {
-                font-size: 1.4em;
-                top: 10px;
-            }
+    .icon-wrap {
+      width: min(28vw, 110px);
+      aspect-ratio: 1 / 1;
+      flex-shrink: 0;
+      border-radius: 22px;
+      background: url('./images/glass-bg.png') center/cover;
+      box-shadow: 0 4px 28px rgba(255, 107, 53, 0.2), 0 2px 8px rgba(0,0,0,0.6);
+      overflow: hidden;
+    }
 
-            .store-strip {
-                flex-direction: row;
-                gap: 30px;
-                padding: 15px;
-                top: 55%;
-            }
+    .app-icon {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
 
-            .store-strip img {
-                height: 60px;
-            }
+    /* Row 2: 3 videos side by side */
+    .text-video-area {
+      flex: 4 1 0;
+      display: flex;
+      flex-direction: row;
+      gap: 6px;
+      min-width: 0;
+    }
 
-            .features {
-                font-size: 0.95em;
-                padding: 12px;
-            }
+    .hero-tagline {
+      flex: 1 1 0;
+      min-width: 0;
+    }
 
-            footer {
-                font-size: 0.8em;
-                padding: 10px;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                gap: 8px;
-            }
+    .app-name {
+      font-size: 1.6em;
+      font-weight: 900;
+      color: #fff;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+      text-shadow: 0 0 16px rgba(255,255,255,0.4);
+    }
 
-            footer a {
-                margin: 0 5px;
-            }
-        }
+    .app-desc {
+      font-size: 1em;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.15;
+      color: #ccc;
+    }
 
-        @media (max-width: 480px) {
-            .store-strip {
-                gap: 20px;
-            }
+    .app-bullets {
+      list-style: none;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
 
-            .store-strip img {
-                height: 50px;
-            }
+    .app-bullets li {
+      font-family: 'Righteous', 'Trebuchet MS', sans-serif;
+      font-size: 0.75em;
+      font-weight: 600;
+      color: #fff;
+      line-height: 1.4;
+      padding-left: 12px;
+      position: relative;
+    }
 
-            .features {
-                font-size: 0.85em;
-                padding: 10px;
-            }
-        }
+    .landscape-only { display: none; }
 
-        /* Modal Styles */
-        .modal-overlay {
-            position: fixed;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background: rgba(0, 0, 0, 0.6);
-            backdrop-filter: blur(4px);
-            -webkit-backdrop-filter: blur(4px);
-            z-index: 1000;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            opacity: 0;
-            visibility: hidden;
-            transition: opacity 0.3s ease, visibility 0.3s ease;
-        }
+    .app-bullets li::before {
+      content: '•';
+      position: absolute;
+      left: 0;
+      color: #666;
+    }
 
-        .modal-overlay.active {
-            opacity: 1;
-            visibility: visible;
-        }
+    .hero-video {
+      flex: 1;
+      min-width: 0;
+      aspect-ratio: 1 / 1;
+      border-radius: 10px;
+      object-fit: cover;
+    }
 
-        .modal-content {
-            background-color: rgba(255, 255, 255, 0.95);
-            padding: 30px;
-            border-radius: 16px;
-            text-align: center;
-            max-width: 80%;
-            width: 350px;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-            transform: scale(0.95) translateY(10px);
-            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        }
+    /* ═══════════════════════════════════════
+       BOUNCE ARENA  (portrait = bottom strip)
+    ═══════════════════════════════════════ */
+    .bounce-arena {
+      flex: 5 1 0;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+    }
 
-        .modal-overlay.active .modal-content {
-            transform: scale(1) translateY(0);
-        }
+    .showcase-item {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+    }
 
-        .modal-content h2 {
-            margin-bottom: 15px;
-            color: #111;
-            font-size: 1.6em;
-            font-weight: 700;
-        }
+    .showcase-circle {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 2px solid;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
-        .modal-content p {
-            margin-bottom: 25px;
-            color: #555;
-            line-height: 1.5;
-            font-size: 1.05em;
-        }
+    .showcase-item:nth-child(1) .showcase-circle {
+      border-color: rgba(225, 55, 55, 0.85);
+      background: rgba(255, 60, 60, 0.2);
+    }
+    .showcase-item:nth-child(2) .showcase-circle {
+      border-color: rgba(55, 210, 85, 0.85);
+      background: rgba(60, 210, 60, 0.2);
+    }
+    .showcase-item:nth-child(3) .showcase-circle {
+      border-color: rgba(65, 145, 255, 0.85);
+      background: rgba(60, 100, 255, 0.2);
+    }
 
-        .modal-content button {
-            background-color: #222;
-            color: white;
-            border: none;
-            padding: 12px 30px;
-            border-radius: 30px;
-            font-size: 1.05em;
-            font-weight: 600;
-            cursor: pointer;
-            transition: background-color 0.2s, transform 0.1s;
-        }
+    .showcase-circle img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      padding: 6px;
+      filter: none;
+    }
 
-        .modal-content button:hover {
-            background-color: #444;
-            transform: scale(1.05);
-        }
+    /* ═══════════════════════════════════════
+       LANDSCAPE  –  mobile landscape + desktop
+       hero = row: app-details LEFT | arena RIGHT
+    ═══════════════════════════════════════ */
+    @media (orientation: landscape), (min-width: 769px) {
 
-        .modal-content button:active {
-            transform: scale(0.95);
-        }
-    </style>
+      .landscape-only { display: list-item; }
+
+      /* Three-column row: [icon] [text+video] [bounce arena] */
+      .hero {
+        flex-direction: row;
+        align-items: stretch;
+        padding: 20px;
+        gap: 0;
+      }
+
+      /* Dissolve wrapper — icon-area and text-video-area become direct flex siblings */
+      .app-details {
+        display: contents;
+      }
+
+      .icon-title { text-align: left; }
+
+      /* Column 1: title top, then icon+bullets below */
+      .icon-area {
+        gap: 8px;
+        align-items: flex-start;
+      }
+
+      /* landscape: dissolve icon-body so icon and bullets stack directly under title */
+      .icon-body {
+        display: contents;
+      }
+
+      .icon-wrap {
+        height: min(47vh, 357px);
+        width: auto;
+        max-width: 100%;
+        aspect-ratio: 1 / 1;
+        flex-shrink: 0;
+      }
+
+      .hero-tagline {
+        flex-shrink: 0;
+        text-align: left;
+        width: 100%;
+      }
+
+      /* Column 2: two videos stacked */
+      .text-video-area {
+        flex: 4 1 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0;
+        gap: 16px;
+        min-width: 0;
+      }
+
+      .hero-tagline {
+        flex-shrink: 0;
+        text-align: left;
+        width: 100%;
+      }
+
+      .hero-video {
+        width: 107px;
+        height: 107px;
+        max-height: 107px;
+        flex: none;
+        object-fit: cover;
+      }
+
+      /* Column 3: Bounce arena */
+      .bounce-arena {
+        flex: 5 1 0;
+        width: auto;
+        height: auto;
+        align-self: stretch;
+      }
+    }
+
+    @media (min-width: 769px) {
+      .icon-wrap { height: min(47vh, 357px); }
+      .showcase-item   { width: 110px; height: 110px; }
+      .showcase-circle { width: 110px; height: 110px; }
+      .app-desc { font-size: 1.4em; text-align: left; }
+      .hero { max-width: 1100px; margin: 0 auto; width: 100%; padding: 28px 40px; gap: 32px; }
+      .hero-video { width: 147px; height: 147px; max-height: 147px; }
+    }
+
+    @media (min-width: 769px) {
+      .showcase-item  { width: 110px; height: 110px; }
+      .showcase-circle { width: 110px; height: 110px; }
+    }
+
+    /* ═══════════════════════════════════════
+       STORE STRIP
+    ═══════════════════════════════════════ */
+    .store-strip {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      padding: 14px 16px;
+      background: #0d0d0d;
+      border-top: 1px solid #191919;
+      border-bottom: 1px solid #191919;
+    }
+
+    .store-strip a { display: block; transition: transform 0.2s, opacity 0.2s; }
+    .store-strip a:hover { transform: scale(1.05); opacity: 0.85; }
+    .store-strip img { height: 42px; width: auto; display: block; }
+
+    @media (min-width: 769px) {
+      .store-strip { gap: 40px; padding: 20px; }
+      .store-strip img { height: 56px; }
+    }
+
+    /* ═══════════════════════════════════════
+       FOOTER
+    ═══════════════════════════════════════ */
+    footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 4px 18px;
+      padding: 13px 16px;
+      background: #080808;
+    }
+
+    footer a {
+      color: #3d3d3d;
+      text-decoration: none;
+      font-size: 0.75em;
+      transition: color 0.2s;
+    }
+
+    footer a:hover { color: #888; }
+
+    @media (min-width: 769px) {
+      footer { padding: 18px; gap: 6px 28px; }
+      footer a { font-size: 0.9em; }
+    }
+
+    /* ═══════════════════════════════════════
+       MODAL
+    ═══════════════════════════════════════ */
+    .modal-overlay {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.78);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      z-index: 1000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+
+    .modal-overlay.active { opacity: 1; visibility: visible; }
+
+    .modal-content {
+      background: #181818;
+      border: 1px solid #282828;
+      padding: 30px;
+      border-radius: 16px;
+      text-align: center;
+      max-width: 80%;
+      width: 350px;
+      box-shadow: 0 24px 60px rgba(0,0,0,0.7);
+      transform: scale(0.95) translateY(10px);
+      transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .modal-overlay.active .modal-content { transform: scale(1) translateY(0); }
+    .modal-content h2 { margin-bottom: 15px; color: #fff; font-size: 1.6em; font-weight: 700; }
+    .modal-content p  { margin-bottom: 25px; color: #888; line-height: 1.5; font-size: 1em; }
+
+    .modal-content button {
+      background: #fff; color: #000; border: none;
+      padding: 12px 30px; border-radius: 30px;
+      font-size: 1em; font-weight: 700; cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+    }
+    .modal-content button:hover  { background: #ddd; transform: scale(1.05); }
+    .modal-content button:active { transform: scale(0.95); }
+  </style>
 </head>
 
 <body>
-    <div class="hero">
-        <div class="hero-text">
 
-        </div>
+  <div class="hero">
 
-        <div class="store-strip">
-            <a href="https://apps.apple.com/app/escher-blocks/id6757327542">
-                <img src="./appstore-badge.svg" alt="Download on the App Store" />
+    <!-- ── App Details ── -->
+    <div class="app-details">
+
+      <div class="icon-area">
+        <div class="icon-title">
+          <div class="app-name-row">
+            <div class="app-name">Escher Blocks</div>
+            <div class="social-links">
+            <a href="https://www.instagram.com/art.escher" target="_blank" rel="noopener" title="Instagram @art.escher">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="ig-grad" x1="0%" y1="100%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#f09433"/>
+                    <stop offset="25%" stop-color="#e6683c"/>
+                    <stop offset="50%" stop-color="#dc2743"/>
+                    <stop offset="75%" stop-color="#cc2366"/>
+                    <stop offset="100%" stop-color="#bc1888"/>
+                  </linearGradient>
+                </defs>
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="url(#ig-grad)"/>
+                <circle cx="12" cy="12" r="4.5" stroke="white" stroke-width="1.8" fill="none"/>
+                <circle cx="17.2" cy="6.8" r="1.2" fill="white"/>
+              </svg>
             </a>
-            <a href="#" onclick="openModal(event)">
-                <img src="./playstore-badge.png" alt="Get it on Google Play" />
+            <a href="https://www.facebook.com/art.escher" target="_blank" rel="noopener" title="Facebook art.escher">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <rect width="24" height="24" rx="5" fill="#1877F2"/>
+                <path d="M15.5 8H13V6.5C13 5.95 13.45 5.5 14 5.5H15.5V3H13C11.34 3 10 4.34 10 6V8H8V11H10V21H13V11H15.2L15.5 8Z" fill="white"/>
+              </svg>
             </a>
+            </div><!-- /.social-links -->
+          </div><!-- /.app-name-row -->
+          <div class="app-desc">Doodle in&nbsp;3D</div>
+        </div><!-- /.icon-title -->
+        <div class="icon-body">
+          <div class="icon-wrap">
+            <img src="./images/appIcon.png" alt="Escher Blocks App Icon" class="app-icon" />
+          </div>
+          <div class="hero-tagline">
+            <ul class="app-bullets">
+              <li>Build 3D forms by stacking cubes</li>
+              <li>Create paradoxical objects</li>
+              <li class="landscape-only">Convert blocks into clean isometric line drawings</li>
+              <li>Draw wireframes in 3D space</li>
+              <li class="landscape-only">Learn perspective by seeing blocks before drawing lines</li>
+              <li>Designed for artists, students, and 3D enthusiasts</li>
+            </ul>
+          </div>
         </div>
+      </div>
 
-        <div class="bottom-content">
-            <div class="features">
-                Create stunning 3D sketches • Intuitive tools • Mobile-first design
-            </div>
+      <div class="text-video-area">
+        <video class="hero-video" muted playsinline>
+          <source src="./recordings/PenroseCube.webm" type="video/webm">
+          <source src="./recordings/PenroseCube.mp4" type="video/mp4">
+        </video>
+        <video class="hero-video" muted playsinline>
+          <source src="./recordings/Spinners.webm" type="video/webm">
+          <source src="./recordings/Spinners.mp4" type="video/mp4">
+        </video>
+        <video class="hero-video" muted playsinline>
+          <source src="./recordings/Snowflake.webm" type="video/webm">
+          <source src="./recordings/Snowflake.mp4" type="video/mp4">
+        </video>
+      </div>
 
-            <footer>
-                <a href="./privacy.html">Privacy Policy</a>
-                <a href="./terms.html">Terms of Service</a>
-                <a href="./support.html">Support</a>
-                <a href="mailto:support@schr.app">Contact</a>
-            </footer>
-        </div>
     </div>
 
-    <!-- Coming Soon Modal -->
-    <div id="comingSoonModal" class="modal-overlay">
-        <div class="modal-content">
-            <h2>Coming Soon</h2>
-            <p>Android App will be available in a few days. Please check back next week.</p>
-            <button onclick="closeModal()">Close</button>
-        </div>
+    <!-- ── Bounce Arena ── -->
+    <div class="bounce-arena">
+      <div class="showcase-item">
+        <div class="showcase-circle"><img src="./drawings/Shield.png" alt="Shield" /></div>
+      </div>
+      <div class="showcase-item">
+        <div class="showcase-circle"><img src="./drawings/Spaghetti.png" alt="Spaghetti" /></div>
+      </div>
+      <div class="showcase-item">
+        <div class="showcase-circle"><img src="./drawings/NestedPillar.png" alt="Nested Pillar" /></div>
+      </div>
     </div>
 
-    <script>
-        function openModal(e) {
-            if (e) e.preventDefault();
-            document.getElementById('comingSoonModal').classList.add('active');
-        }
+  </div>
 
-        function closeModal() {
-            document.getElementById('comingSoonModal').classList.remove('active');
-        }
+  <!-- ── Store Strip ── -->
+  <div class="store-strip">
+    <a href="https://apps.apple.com/app/escher-blocks/id6757327542">
+      <img src="./appstore-badge.svg" alt="Download on the App Store" />
+    </a>
+    <a href="#" onclick="openModal(event)">
+      <img src="./images/playstore-badge.png" alt="Get it on Google Play" />
+    </a>
+  </div>
 
-        // Close when clicking outside of the modal content
-        document.getElementById('comingSoonModal').addEventListener('click', function(e) {
-            if (e.target === this) {
-                closeModal();
-            }
+  <!-- ── Footer ── -->
+  <footer>
+    <a href="./privacy.html">Privacy Policy</a>
+    <a href="./terms.html">Terms of Service</a>
+    <a href="./support.html">Support</a>
+    <a href="mailto:support@schr.app">Contact</a>
+  </footer>
+
+  <!-- Coming Soon Modal -->
+  <div id="comingSoonModal" class="modal-overlay">
+    <div class="modal-content">
+      <h2>Coming Soon</h2>
+      <p>Android App will be available in a few days. Please check back next week.</p>
+      <button onclick="closeModal()">Close</button>
+    </div>
+  </div>
+
+  <script>
+    /* ── Bounce animation ── */
+    (function () {
+      const SPEED = 0.35;
+      function vel(ax, ay) {
+        const m = Math.sqrt(ax * ax + ay * ay);
+        return { vx: ax / m * SPEED, vy: ay / m * SPEED };
+      }
+
+      function jiggle(c) {
+        const angle = (Math.random() - 0.5) * Math.PI * 0.6; // ±54°
+        const cos = Math.cos(angle), sin = Math.sin(angle);
+        const nvx = c.vx * cos - c.vy * sin;
+        const nvy = c.vx * sin + c.vy * cos;
+        c.vx = nvx; c.vy = nvy; // already at SPEED since we just rotate
+      }
+
+      // Schedule random jiggles for each circle independently
+      function scheduleJiggle(c) {
+        const delay = 3000 + Math.random() * 4000; // 3–7s
+        setTimeout(() => { jiggle(c); scheduleJiggle(c); }, delay);
+      }
+
+      let R = 40;
+      const circles = [
+        { x: 80, y: 60,  ...vel( 1,  0.8) },
+        { x: 80, y: 160, ...vel(-1,  1.1) },
+        { x: 80, y: 260, ...vel( 1, -0.9) },
+      ];
+
+      circles.forEach(c => scheduleJiggle(c));
+
+      function clamp(circles, W, H) {
+        circles.forEach(c => {
+          if (c.x < R) c.x = R;
+          if (c.x > W - R) c.x = W - R;
+          if (c.y < R) c.y = R;
+          if (c.y > H - R) c.y = H - R;
         });
-    </script>
-</body>
+      }
 
+      function step() {
+        const container = document.querySelector('.bounce-arena');
+        const items     = document.querySelectorAll('.showcase-item');
+        R = Math.round(document.querySelector('.showcase-circle').offsetWidth / 2);
+        const W = container.offsetWidth;
+        const H = container.offsetHeight;
+
+        circles.forEach(c => {
+          c.x += c.vx;
+          c.y += c.vy;
+          if (c.x - R < 0)  { c.x = R;     c.vx =  Math.abs(c.vx); }
+          if (c.x + R > W)  { c.x = W - R; c.vx = -Math.abs(c.vx); }
+          if (c.y - R < 0)  { c.y = R;     c.vy =  Math.abs(c.vy); }
+          if (c.y + R > H)  { c.y = H - R; c.vy = -Math.abs(c.vy); }
+        });
+
+        for (let i = 0; i < circles.length; i++) {
+          for (let j = i + 1; j < circles.length; j++) {
+            const a = circles[i], b = circles[j];
+            const dx = b.x - a.x, dy = b.y - a.y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < R * 2 && dist > 0) {
+              const nx = dx / dist, ny = dy / dist;
+              const overlap = R * 2 - dist;
+              a.x -= nx * overlap / 2;
+              a.y -= ny * overlap / 2;
+              b.x += nx * overlap / 2;
+              b.y += ny * overlap / 2;
+              const p = (a.vx - b.vx) * nx + (a.vy - b.vy) * ny;
+              if (p > 0) {
+                a.vx -= p * nx; a.vy -= p * ny;
+                b.vx += p * nx; b.vy += p * ny;
+                [a, b].forEach(c => {
+                  const s = Math.sqrt(c.vx * c.vx + c.vy * c.vy);
+                  c.vx = c.vx / s * SPEED;
+                  c.vy = c.vy / s * SPEED;
+                });
+              }
+            }
+          }
+        }
+
+        circles.forEach((c, i) => {
+          items[i].style.left = (c.x - R) + 'px';
+          items[i].style.top  = (c.y - R) + 'px';
+        });
+
+        requestAnimationFrame(step);
+      }
+
+      /* Reposition circles on resize/orientation change */
+      window.addEventListener('resize', () => {
+        const container = document.querySelector('.bounce-arena');
+        const W = container.offsetWidth;
+        const H = container.offsetHeight;
+        clamp(circles, W, H);
+      });
+
+      requestAnimationFrame(step);
+    })();
+  </script>
+
+  <script>
+    /* ── Sequential video playback ── */
+    (function () {
+      const videos = Array.from(document.querySelectorAll('.hero-video'));
+      let current = 0;
+
+      function playNext() {
+        videos[current].pause();
+        videos[current].currentTime = 0;
+        current = (current + 1) % videos.length;
+        videos[current].play();
+      }
+
+      videos.forEach(v => v.addEventListener('ended', playNext));
+
+      // Start the first one
+      videos[0].play();
+    })();
+  </script>
+
+  <script>
+    function openModal(e) {
+      if (e) e.preventDefault();
+      document.getElementById('comingSoonModal').classList.add('active');
+    }
+    function closeModal() {
+      document.getElementById('comingSoonModal').classList.remove('active');
+    }
+    document.getElementById('comingSoonModal').addEventListener('click', function (e) {
+      if (e.target === this) closeModal();
+    });
+  </script>
+
+</body>
 </html>
