@@ -1,0 +1,2431 @@
+{
+  "header": {
+    "appName": "Escher-Drawing",
+    "appVersion": "2.9.2",
+    "contentType": "streaming"
+  },
+  "version": 1,
+  "palette": [
+    {
+      "top": "#3b82f6",
+      "left": "#ef4444",
+      "right": "#22c55e"
+    },
+    {
+      "top": "#93c5fd",
+      "left": "#fca5a5",
+      "right": "#86efac"
+    },
+    {
+      "top": "#e2e8f0",
+      "left": "#475569",
+      "right": "#94a3b8"
+    },
+    {
+      "top": "#fbbf24",
+      "left": "#f97316",
+      "right": "#ec4899"
+    },
+    {
+      "top": "#06b6d4",
+      "left": "#0284c7",
+      "right": "#14b8a6"
+    },
+    {
+      "top": "#84cc16",
+      "left": "#16a34a",
+      "right": "#059669"
+    },
+    {
+      "top": "#c084fc",
+      "left": "#a855f7",
+      "right": "#d946ef"
+    },
+    {
+      "top": "#d97706",
+      "left": "#92400e",
+      "right": "#a16207"
+    },
+    {
+      "top": "#facc15",
+      "left": "#f43f5e",
+      "right": "#10b981"
+    }
+  ],
+  "events": [
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": 6,
+          "z": 0,
+          "sx": -346.4101615137754,
+          "sy": 40,
+          "type": "potential"
+        }
+      },
+      "delay": 4102
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": 9,
+          "z": 0,
+          "sx": -450.33320996790803,
+          "sy": 100,
+          "type": "potential"
+        }
+      },
+      "delay": 5320
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": 9,
+          "z": 0,
+          "sx": -277.12812921102034,
+          "sy": 200,
+          "type": "potential"
+        }
+      },
+      "delay": 6467
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": 6,
+          "z": 0,
+          "sx": -173.2050807568877,
+          "sy": 140,
+          "type": "potential"
+        }
+      },
+      "delay": 7749
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": 6,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": 120,
+          "type": "potential"
+        }
+      },
+      "delay": 8586
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": 8,
+          "z": 0,
+          "sx": -277.12812921102034,
+          "sy": 160,
+          "type": "potential"
+        }
+      },
+      "delay": 9515
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": 8,
+          "z": 0,
+          "sx": -311.76914536239786,
+          "sy": 140,
+          "type": "potential"
+        }
+      },
+      "delay": 10385
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": 7,
+          "z": 0,
+          "sx": -277.12812921102034,
+          "sy": 120,
+          "type": "potential"
+        }
+      },
+      "delay": 11050
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": 7,
+          "z": 0,
+          "sx": -311.76914536239786,
+          "sy": 100,
+          "type": "potential"
+        }
+      },
+      "delay": 11795
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": 8,
+          "z": 0,
+          "sx": -346.4101615137754,
+          "sy": 120,
+          "type": "potential"
+        }
+      },
+      "delay": 12616
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": 8,
+          "z": 0,
+          "sx": -381.051177665153,
+          "sy": 100,
+          "type": "potential"
+        }
+      },
+      "delay": 13333
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": 6,
+          "z": 0,
+          "sx": -311.76914536239786,
+          "sy": 60,
+          "type": "potential"
+        }
+      },
+      "delay": 14065
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": 6,
+          "z": 0,
+          "sx": -346.4101615137754,
+          "sy": 40,
+          "type": "existing"
+        }
+      },
+      "delay": 14834
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 14834
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": 2,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": -40,
+          "type": "potential"
+        }
+      },
+      "delay": 17786
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": 5,
+          "z": 0,
+          "sx": -311.76914536239786,
+          "sy": 20,
+          "type": "potential"
+        }
+      },
+      "delay": 18651
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": 5,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": 80,
+          "type": "potential"
+        }
+      },
+      "delay": 19581
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": 3,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": 40,
+          "type": "potential"
+        }
+      },
+      "delay": 20231
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": 3,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": 60,
+          "type": "potential"
+        }
+      },
+      "delay": 20981
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": 5,
+          "z": 0,
+          "sx": -173.2050807568877,
+          "sy": 100,
+          "type": "potential"
+        }
+      },
+      "delay": 21814
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": 5,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": 120,
+          "type": "potential"
+        }
+      },
+      "delay": 22517
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": 2,
+          "z": 0,
+          "sx": -34.64101615137754,
+          "sy": 60,
+          "type": "potential"
+        }
+      },
+      "delay": 23349
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": 2,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": 0,
+          "type": "potential"
+        }
+      },
+      "delay": 24233
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": 4,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": 40,
+          "type": "potential"
+        }
+      },
+      "delay": 24998
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": 4,
+          "z": 0,
+          "sx": -242.4871130596428,
+          "sy": 20,
+          "type": "potential"
+        }
+      },
+      "delay": 25581
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": 2,
+          "z": 0,
+          "sx": -173.2050807568877,
+          "sy": -20,
+          "type": "potential"
+        }
+      },
+      "delay": 26233
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": 2,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": -40,
+          "type": "existing"
+        }
+      },
+      "delay": 26833
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 26834
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -2,
+          "z": 0,
+          "sx": -69.28203230275508,
+          "sy": -120,
+          "type": "potential"
+        }
+      },
+      "delay": 29315
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": 1,
+          "z": 0,
+          "sx": -173.2050807568877,
+          "sy": -60,
+          "type": "potential"
+        }
+      },
+      "delay": 30434
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": 1,
+          "z": 0,
+          "sx": 0,
+          "sy": 40,
+          "type": "potential"
+        }
+      },
+      "delay": 31448
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -2,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": -20,
+          "type": "potential"
+        }
+      },
+      "delay": 32317
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": -2,
+          "z": 0,
+          "sx": 69.28203230275508,
+          "sy": -40,
+          "type": "potential"
+        }
+      },
+      "delay": 33015
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "sx": 0,
+          "sy": 0,
+          "type": "potential"
+        }
+      },
+      "delay": 33698
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": 0,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": -60,
+          "type": "potential"
+        }
+      },
+      "delay": 34734
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": -2,
+          "z": 0,
+          "sx": -34.64101615137754,
+          "sy": -100,
+          "type": "potential"
+        }
+      },
+      "delay": 35334
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -2,
+          "z": 0,
+          "sx": -69.28203230275508,
+          "sy": -120,
+          "type": "existing"
+        }
+      },
+      "delay": 36037
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 36039
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": -4,
+          "z": 0,
+          "sx": 69.28203230275508,
+          "sy": -120,
+          "type": "potential"
+        }
+      },
+      "delay": 41396
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -4,
+          "z": 0,
+          "sx": 0,
+          "sy": -160,
+          "type": "potential"
+        }
+      },
+      "delay": 42134
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -3,
+          "z": 0,
+          "sx": -34.64101615137754,
+          "sy": -140,
+          "type": "potential"
+        }
+      },
+      "delay": 43582
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -3,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": -40,
+          "type": "potential"
+        }
+      },
+      "delay": 44562
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -4,
+          "z": 0,
+          "sx": 173.2050807568877,
+          "sy": -60,
+          "type": "potential"
+        }
+      },
+      "delay": 45231
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": -4,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": -100,
+          "type": "potential"
+        }
+      },
+      "delay": 46197
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": -5,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": -120,
+          "type": "potential"
+        }
+      },
+      "delay": 46880
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -5,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": -80,
+          "type": "potential"
+        }
+      },
+      "delay": 47719
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -6,
+          "z": 0,
+          "sx": 242.4871130596428,
+          "sy": -100,
+          "type": "potential"
+        }
+      },
+      "delay": 48381
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -6,
+          "z": 0,
+          "sx": 69.28203230275508,
+          "sy": -200,
+          "type": "potential"
+        }
+      },
+      "delay": 49303
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -5,
+          "z": 0,
+          "sx": 34.64101615137754,
+          "sy": -180,
+          "type": "potential"
+        }
+      },
+      "delay": 50018
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": -5,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": -140,
+          "type": "potential"
+        }
+      },
+      "delay": 50828
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": -4,
+          "z": 0,
+          "sx": 69.28203230275508,
+          "sy": -120,
+          "type": "existing"
+        }
+      },
+      "delay": 51562
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 51563
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -10,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": -280,
+          "type": "potential"
+        }
+      },
+      "delay": 54182
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -7,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": -220,
+          "type": "potential"
+        }
+      },
+      "delay": 55066
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -7,
+          "z": 0,
+          "sx": 277.12812921102034,
+          "sy": -120,
+          "type": "potential"
+        }
+      },
+      "delay": 56182
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -10,
+          "z": 0,
+          "sx": 381.051177665153,
+          "sy": -180,
+          "type": "potential"
+        }
+      },
+      "delay": 57063
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": -10,
+          "z": 0,
+          "sx": 346.4101615137754,
+          "sy": -200,
+          "type": "potential"
+        }
+      },
+      "delay": 57765
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": -8,
+          "z": 0,
+          "sx": 277.12812921102034,
+          "sy": -160,
+          "type": "potential"
+        }
+      },
+      "delay": 58580
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": -8,
+          "z": 0,
+          "sx": 242.4871130596428,
+          "sy": -180,
+          "type": "potential"
+        }
+      },
+      "delay": 59248
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": -9,
+          "z": 0,
+          "sx": 277.12812921102034,
+          "sy": -200,
+          "type": "potential"
+        }
+      },
+      "delay": 59810
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": -9,
+          "z": 0,
+          "sx": 242.4871130596428,
+          "sy": -220,
+          "type": "potential"
+        }
+      },
+      "delay": 60481
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": -8,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": -200,
+          "type": "potential"
+        }
+      },
+      "delay": 61146
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": -8,
+          "z": 0,
+          "sx": 173.2050807568877,
+          "sy": -220,
+          "type": "potential"
+        }
+      },
+      "delay": 61749
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": -10,
+          "z": 0,
+          "sx": 242.4871130596428,
+          "sy": -260,
+          "type": "potential"
+        }
+      },
+      "delay": 62434
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -10,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": -280,
+          "type": "existing"
+        }
+      },
+      "delay": 63260
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 63261
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -14,
+          "z": 0,
+          "sx": 346.4101615137754,
+          "sy": -360,
+          "type": "potential"
+        }
+      },
+      "delay": 65779
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -11,
+          "z": 0,
+          "sx": 242.4871130596428,
+          "sy": -300,
+          "type": "potential"
+        }
+      },
+      "delay": 66748
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -11,
+          "z": 0,
+          "sx": 415.6921938165305,
+          "sy": -200,
+          "type": "potential"
+        }
+      },
+      "delay": 67880
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -12,
+          "z": 0,
+          "sx": 450.33320996790803,
+          "sy": -220,
+          "type": "potential"
+        }
+      },
+      "delay": 68512
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": -12,
+          "z": 0,
+          "sx": 311.76914536239786,
+          "sy": -300,
+          "type": "potential"
+        }
+      },
+      "delay": 69780
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": -14,
+          "z": 0,
+          "sx": 381.051177665153,
+          "sy": -340,
+          "type": "potential"
+        }
+      },
+      "delay": 70563
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -14,
+          "z": 0,
+          "sx": 346.4101615137754,
+          "sy": -360,
+          "type": "existing"
+        }
+      },
+      "delay": 71362
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 71363
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": 9,
+          "z": 0,
+          "sx": -450.33320996790803,
+          "sy": 100,
+          "type": "existing"
+        }
+      },
+      "delay": 76629
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": 10,
+          "z": 0,
+          "sx": -450.33320996790803,
+          "sy": 140,
+          "type": "potential"
+        }
+      },
+      "delay": 77343
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": 10,
+          "z": 0,
+          "sx": -277.12812921102034,
+          "sy": 240,
+          "type": "potential"
+        }
+      },
+      "delay": 78813
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": 9,
+          "z": 0,
+          "sx": -277.12812921102034,
+          "sy": 200,
+          "type": "existing"
+        }
+      },
+      "delay": 79395
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 79395
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": 10,
+          "z": 0,
+          "sx": -277.12812921102034,
+          "sy": 240,
+          "type": "existing"
+        }
+      },
+      "delay": 80211
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": 7,
+          "z": 0,
+          "sx": -173.2050807568877,
+          "sy": 180,
+          "type": "potential"
+        }
+      },
+      "delay": 81046
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": 6,
+          "z": 0,
+          "sx": -173.2050807568877,
+          "sy": 140,
+          "type": "existing"
+        }
+      },
+      "delay": 81775
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 81776
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": 6,
+          "z": 0,
+          "sx": -311.76914536239786,
+          "sy": 60,
+          "type": "existing"
+        }
+      },
+      "delay": 83144
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": 7,
+          "z": 0,
+          "sx": -311.76914536239786,
+          "sy": 100,
+          "type": "existing"
+        }
+      },
+      "delay": 83626
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 83627
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": 7,
+          "z": 0,
+          "sx": -277.12812921102034,
+          "sy": 120,
+          "type": "existing"
+        }
+      },
+      "delay": 84340
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": 8,
+          "z": 0,
+          "sx": -277.12812921102034,
+          "sy": 160,
+          "type": "existing"
+        }
+      },
+      "delay": 84810
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 84811
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": 2,
+          "z": 0,
+          "sx": -173.2050807568877,
+          "sy": -20,
+          "type": "existing"
+        }
+      },
+      "delay": 86077
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": 3,
+          "z": 0,
+          "sx": -173.2050807568877,
+          "sy": 20,
+          "type": "potential"
+        }
+      },
+      "delay": 86577
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": 3,
+          "z": 0,
+          "sx": -173.2050807568877,
+          "sy": 20,
+          "type": "existing"
+        }
+      },
+      "delay": 88109
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 88110
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": 5,
+          "z": 0,
+          "sx": -311.76914536239786,
+          "sy": 20,
+          "type": "existing"
+        }
+      },
+      "delay": 89180
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": 6,
+          "z": 0,
+          "sx": -311.76914536239786,
+          "sy": 60,
+          "type": "existing"
+        }
+      },
+      "delay": 89844
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 89846
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": 6,
+          "z": 0,
+          "sx": -311.76914536239786,
+          "sy": 60,
+          "type": "existing"
+        }
+      },
+      "delay": 90543
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": 6,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": 120,
+          "type": "existing"
+        }
+      },
+      "delay": 91662
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 91663
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": 6,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": 120,
+          "type": "existing"
+        }
+      },
+      "delay": 93358
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": 5,
+          "z": 0,
+          "sx": -173.2050807568877,
+          "sy": 100,
+          "type": "existing"
+        }
+      },
+      "delay": 94211
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 94213
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": 5,
+          "z": 0,
+          "sx": -173.2050807568877,
+          "sy": 100,
+          "type": "existing"
+        }
+      },
+      "delay": 95626
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": 6,
+          "z": 0,
+          "sx": -173.2050807568877,
+          "sy": 140,
+          "type": "existing"
+        }
+      },
+      "delay": 96211
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 96214
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": 6,
+          "z": 0,
+          "sx": -173.2050807568877,
+          "sy": 140,
+          "type": "existing"
+        }
+      },
+      "delay": 96876
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": 6,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": 160,
+          "type": "potential"
+        }
+      },
+      "delay": 97559
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": 3,
+          "z": 0,
+          "sx": -34.64101615137754,
+          "sy": 100,
+          "type": "potential"
+        }
+      },
+      "delay": 99160
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": 2,
+          "z": 0,
+          "sx": -34.64101615137754,
+          "sy": 60,
+          "type": "existing"
+        }
+      },
+      "delay": 99841
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 99845
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": 5,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": 80,
+          "type": "existing"
+        }
+      },
+      "delay": 101608
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": 6,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": 120,
+          "type": "existing"
+        }
+      },
+      "delay": 102227
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 102229
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": 3,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": 40,
+          "type": "existing"
+        }
+      },
+      "delay": 103126
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": 4,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": 80,
+          "type": "potential"
+        }
+      },
+      "delay": 103728
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": 4,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": 80,
+          "type": "existing"
+        }
+      },
+      "delay": 104960
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 104961
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": 5,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": 120,
+          "type": "existing"
+        }
+      },
+      "delay": 106026
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": 6,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": 160,
+          "type": "existing"
+        }
+      },
+      "delay": 106658
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 106659
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": 1,
+          "z": 0,
+          "sx": -173.2050807568877,
+          "sy": -60,
+          "type": "existing"
+        }
+      },
+      "delay": 110409
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": 2,
+          "z": 0,
+          "sx": -173.2050807568877,
+          "sy": -20,
+          "type": "existing"
+        }
+      },
+      "delay": 110940
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 110942
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": 2,
+          "z": 0,
+          "sx": -173.2050807568877,
+          "sy": -20,
+          "type": "existing"
+        }
+      },
+      "delay": 111708
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": 2,
+          "z": 0,
+          "sx": 0,
+          "sy": 80,
+          "type": "potential"
+        }
+      },
+      "delay": 113276
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -1,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": 20,
+          "type": "potential"
+        }
+      },
+      "delay": 114962
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -2,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": -20,
+          "type": "existing"
+        }
+      },
+      "delay": 115709
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 115711
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": 1,
+          "z": 0,
+          "sx": 0,
+          "sy": 40,
+          "type": "existing"
+        }
+      },
+      "delay": 116671
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": 2,
+          "z": 0,
+          "sx": 0,
+          "sy": 80,
+          "type": "existing"
+        }
+      },
+      "delay": 117307
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 117308
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": -2,
+          "z": 0,
+          "sx": -34.64101615137754,
+          "sy": -100,
+          "type": "existing"
+        }
+      },
+      "delay": 118457
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": -1,
+          "z": 0,
+          "sx": -34.64101615137754,
+          "sy": -60,
+          "type": "potential"
+        }
+      },
+      "delay": 119660
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": 0,
+          "z": 0,
+          "sx": -69.28203230275508,
+          "sy": -40,
+          "type": "potential"
+        }
+      },
+      "delay": 120479
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": 0,
+          "z": 0,
+          "sx": -69.28203230275508,
+          "sy": -40,
+          "type": "existing"
+        }
+      },
+      "delay": 122029
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 122031
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -3,
+          "z": 0,
+          "sx": -34.64101615137754,
+          "sy": -140,
+          "type": "existing"
+        }
+      },
+      "delay": 123808
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": -2,
+          "z": 0,
+          "sx": -34.64101615137754,
+          "sy": -100,
+          "type": "existing"
+        }
+      },
+      "delay": 124357
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 124358
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": -2,
+          "z": 0,
+          "sx": -34.64101615137754,
+          "sy": -100,
+          "type": "existing"
+        }
+      },
+      "delay": 125041
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -2,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": 0,
+          "type": "potential"
+        }
+      },
+      "delay": 126294
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -3,
+          "z": 0,
+          "sx": 173.2050807568877,
+          "sy": -20,
+          "type": "potential"
+        }
+      },
+      "delay": 126991
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -4,
+          "z": 0,
+          "sx": 173.2050807568877,
+          "sy": -60,
+          "type": "existing"
+        }
+      },
+      "delay": 127674
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 127675
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -3,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": -40,
+          "type": "existing"
+        }
+      },
+      "delay": 128658
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -2,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": 0,
+          "type": "existing"
+        }
+      },
+      "delay": 129205
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 129206
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": -5,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": -120,
+          "type": "existing"
+        }
+      },
+      "delay": 130739
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": -4,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": -80,
+          "type": "potential"
+        }
+      },
+      "delay": 131425
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": -4,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": -80,
+          "type": "existing"
+        }
+      },
+      "delay": 132155
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 132157
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -5,
+          "z": 0,
+          "sx": 34.64101615137754,
+          "sy": -180,
+          "type": "existing"
+        }
+      },
+      "delay": 133390
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": -4,
+          "z": 0,
+          "sx": 34.64101615137754,
+          "sy": -140,
+          "type": "potential"
+        }
+      },
+      "delay": 134058
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": -4,
+          "z": 0,
+          "sx": 34.64101615137754,
+          "sy": -140,
+          "type": "existing"
+        }
+      },
+      "delay": 134971
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 134972
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": -4,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": -80,
+          "type": "existing"
+        }
+      },
+      "delay": 138290
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -4,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": -40,
+          "type": "potential"
+        }
+      },
+      "delay": 139077
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -5,
+          "z": 0,
+          "sx": 242.4871130596428,
+          "sy": -60,
+          "type": "potential"
+        }
+      },
+      "delay": 139556
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -6,
+          "z": 0,
+          "sx": 242.4871130596428,
+          "sy": -100,
+          "type": "existing"
+        }
+      },
+      "delay": 140174
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 140175
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -5,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": -80,
+          "type": "existing"
+        }
+      },
+      "delay": 140957
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -4,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": -40,
+          "type": "existing"
+        }
+      },
+      "delay": 141522
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 141523
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -7,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": -220,
+          "type": "existing"
+        }
+      },
+      "delay": 144206
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": -6,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": -180,
+          "type": "potential"
+        }
+      },
+      "delay": 144908
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -6,
+          "z": 0,
+          "sx": 277.12812921102034,
+          "sy": -80,
+          "type": "potential"
+        }
+      },
+      "delay": 146162
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -9,
+          "z": 0,
+          "sx": 381.051177665153,
+          "sy": -140,
+          "type": "potential"
+        }
+      },
+      "delay": 146925
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -10,
+          "z": 0,
+          "sx": 381.051177665153,
+          "sy": -180,
+          "type": "existing"
+        }
+      },
+      "delay": 147505
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 147505
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -7,
+          "z": 0,
+          "sx": 277.12812921102034,
+          "sy": -120,
+          "type": "existing"
+        }
+      },
+      "delay": 148440
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -6,
+          "z": 0,
+          "sx": 277.12812921102034,
+          "sy": -80,
+          "type": "existing"
+        }
+      },
+      "delay": 149090
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 149091
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": -9,
+          "z": 0,
+          "sx": 277.12812921102034,
+          "sy": -200,
+          "type": "existing"
+        }
+      },
+      "delay": 150122
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": -8,
+          "z": 0,
+          "sx": 277.12812921102034,
+          "sy": -160,
+          "type": "existing"
+        }
+      },
+      "delay": 150654
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 150656
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": -10,
+          "z": 0,
+          "sx": 242.4871130596428,
+          "sy": -260,
+          "type": "existing"
+        }
+      },
+      "delay": 151505
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": -9,
+          "z": 0,
+          "sx": 242.4871130596428,
+          "sy": -220,
+          "type": "existing"
+        }
+      },
+      "delay": 152191
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 152192
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -11,
+          "z": 0,
+          "sx": 242.4871130596428,
+          "sy": -300,
+          "type": "existing"
+        }
+      },
+      "delay": 153340
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": -10,
+          "z": 0,
+          "sx": 242.4871130596428,
+          "sy": -260,
+          "type": "existing"
+        }
+      },
+      "delay": 153973
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 153974
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": -10,
+          "z": 0,
+          "sx": 242.4871130596428,
+          "sy": -260,
+          "type": "existing"
+        }
+      },
+      "delay": 155121
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -10,
+          "z": 0,
+          "sx": 415.6921938165305,
+          "sy": -160,
+          "type": "potential"
+        }
+      },
+      "delay": 156141
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -11,
+          "z": 0,
+          "sx": 450.33320996790803,
+          "sy": -180,
+          "type": "potential"
+        }
+      },
+      "delay": 156755
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -12,
+          "z": 0,
+          "sx": 450.33320996790803,
+          "sy": -220,
+          "type": "existing"
+        }
+      },
+      "delay": 157321
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 157322
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -11,
+          "z": 0,
+          "sx": 415.6921938165305,
+          "sy": -200,
+          "type": "existing"
+        }
+      },
+      "delay": 158021
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -10,
+          "z": 0,
+          "sx": 415.6921938165305,
+          "sy": -160,
+          "type": "existing"
+        }
+      },
+      "delay": 158637
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 158639
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": -14,
+          "z": 0,
+          "sx": 381.051177665153,
+          "sy": -340,
+          "type": "existing"
+        }
+      },
+      "delay": 159871
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": -13,
+          "z": 0,
+          "sx": 381.051177665153,
+          "sy": -300,
+          "type": "potential"
+        }
+      },
+      "delay": 160555
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": -12,
+          "z": 0,
+          "sx": 346.4101615137754,
+          "sy": -280,
+          "type": "potential"
+        }
+      },
+      "delay": 161253
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": -12,
+          "z": 0,
+          "sx": 346.4101615137754,
+          "sy": -280,
+          "type": "existing"
+        }
+      },
+      "delay": 162339
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 162341
+    }
+  ]
+}

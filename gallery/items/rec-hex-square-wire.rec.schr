@@ -1,0 +1,2119 @@
+{
+  "header": {
+    "appName": "Escher-Drawing",
+    "appVersion": "2.9.2",
+    "contentType": "streaming"
+  },
+  "version": 1,
+  "palette": [
+    {
+      "top": "#3b82f6",
+      "left": "#ef4444",
+      "right": "#22c55e"
+    },
+    {
+      "top": "#93c5fd",
+      "left": "#fca5a5",
+      "right": "#86efac"
+    },
+    {
+      "top": "#e2e8f0",
+      "left": "#475569",
+      "right": "#94a3b8"
+    },
+    {
+      "top": "#fbbf24",
+      "left": "#f97316",
+      "right": "#ec4899"
+    },
+    {
+      "top": "#06b6d4",
+      "left": "#0284c7",
+      "right": "#14b8a6"
+    },
+    {
+      "top": "#84cc16",
+      "left": "#16a34a",
+      "right": "#059669"
+    },
+    {
+      "top": "#c084fc",
+      "left": "#a855f7",
+      "right": "#d946ef"
+    },
+    {
+      "top": "#d97706",
+      "left": "#92400e",
+      "right": "#a16207"
+    },
+    {
+      "top": "#facc15",
+      "left": "#f43f5e",
+      "right": "#10b981"
+    }
+  ],
+  "events": [
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": -4,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": -100,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -4,
+          "z": 0,
+          "sx": 0,
+          "sy": -160,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": -3,
+          "z": 0,
+          "sx": 0,
+          "sy": -120,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": -3,
+          "z": 0,
+          "sx": 69.28203230275508,
+          "sy": -80,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -1,
+          "z": 0,
+          "sx": 69.28203230275508,
+          "sy": 0,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -1,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": 20,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": -3,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": -60,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": -3,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": -60,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": 2,
+          "z": 0,
+          "sx": -34.64101615137754,
+          "sy": 60,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": 2,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": 20,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": 1,
+          "z": 0,
+          "sx": -69.28203230275508,
+          "sy": 0,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": 1,
+          "z": 0,
+          "sx": 0,
+          "sy": 40,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -1,
+          "z": 0,
+          "sx": 69.28203230275508,
+          "sy": 0,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -1,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": 20,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": 2,
+          "z": 0,
+          "sx": 0,
+          "sy": 80,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": 2,
+          "z": 0,
+          "sx": 0,
+          "sy": 80,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -2,
+          "z": 0,
+          "sx": -69.28203230275508,
+          "sy": -120,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -4,
+          "z": 0,
+          "sx": 0,
+          "sy": -160,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": -3,
+          "z": 0,
+          "sx": 0,
+          "sy": -120,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": -1,
+          "z": 0,
+          "sx": -69.28203230275508,
+          "sy": -80,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": 1,
+          "z": 0,
+          "sx": -69.28203230275508,
+          "sy": 0,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": 2,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": 20,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -1,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": -100,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -1,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": -100,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -7,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": -220,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -5,
+          "z": 0,
+          "sx": 34.64101615137754,
+          "sy": -180,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -5,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": -80,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -10,
+          "z": 0,
+          "sx": 381.051177665153,
+          "sy": -180,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -10,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": -280,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -8,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": -240,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -8,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": -240,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -5,
+          "z": 0,
+          "sx": 242.4871130596428,
+          "sy": -60,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -11,
+          "z": 0,
+          "sx": 450.33320996790803,
+          "sy": -180,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -5,
+          "y": -11,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": -320,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -5,
+          "y": -9,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": -280,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -5,
+          "y": -9,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": -280,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 5,
+          "y": 2,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": 140,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 3,
+          "y": 0,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": 60,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 3,
+          "y": 5,
+          "z": 0,
+          "sx": -69.28203230275508,
+          "sy": 160,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 8,
+          "y": 10,
+          "z": 0,
+          "sx": -69.28203230275508,
+          "sy": 360,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 8,
+          "y": 5,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": 260,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 6,
+          "y": 3,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": 180,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 6,
+          "y": 3,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": 180,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 3,
+          "y": 6,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": 180,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 9,
+          "y": 12,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": 420,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 9,
+          "y": 12,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": 420,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 9,
+          "y": 12,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": 420,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 9,
+          "y": 5,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": 280,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 7,
+          "y": 3,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": 200,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 7,
+          "y": 3,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": 200,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": 2,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": -40,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": 2,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": 0,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -7,
+          "y": -3,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": -200,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -12,
+          "y": -3,
+          "z": 0,
+          "sx": -311.76914536239786,
+          "sy": -300,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -7,
+          "y": 2,
+          "z": 0,
+          "sx": -311.76914536239786,
+          "sy": -100,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -5,
+          "y": 2,
+          "z": 0,
+          "sx": -242.4871130596428,
+          "sy": -60,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -5,
+          "y": 2,
+          "z": 0,
+          "sx": -242.4871130596428,
+          "sy": -60,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -8,
+          "y": -4,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": -240,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -14,
+          "y": -4,
+          "z": 0,
+          "sx": -346.4101615137754,
+          "sy": -360,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -7,
+          "y": 3,
+          "z": 0,
+          "sx": -346.4101615137754,
+          "sy": -80,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -5,
+          "y": 3,
+          "z": 0,
+          "sx": -277.12812921102034,
+          "sy": -40,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -5,
+          "y": 3,
+          "z": 0,
+          "sx": -277.12812921102034,
+          "sy": -40,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": -4,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": -100,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 5,
+          "y": -4,
+          "z": 0,
+          "sx": 311.76914536239786,
+          "sy": 20,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 12,
+          "y": 3,
+          "z": 0,
+          "sx": 311.76914536239786,
+          "sy": 300,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 6,
+          "y": 3,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": 180,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": -3,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": -60,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 5,
+          "y": -3,
+          "z": 0,
+          "sx": 277.12812921102034,
+          "sy": 40,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 10,
+          "y": 2,
+          "z": 0,
+          "sx": 277.12812921102034,
+          "sy": 240,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 5,
+          "y": 2,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": 140,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": 2,
+          "z": 0,
+          "sx": 0,
+          "sy": 80,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": 8,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": 200,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -5,
+          "y": 8,
+          "z": 0,
+          "sx": -450.33320996790803,
+          "sy": 60,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -5,
+          "y": 2,
+          "z": 0,
+          "sx": -242.4871130596428,
+          "sy": -60,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": 2,
+          "z": 0,
+          "sx": -34.64101615137754,
+          "sy": 60,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": 7,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": 160,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": 7,
+          "z": 0,
+          "sx": -381.051177665153,
+          "sy": 60,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": 2,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": -40,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -1,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": -100,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -10,
+          "y": -7,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": -340,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -10,
+          "y": -14,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": -480,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -8,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": -240,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -2,
+          "z": 0,
+          "sx": -69.28203230275508,
+          "sy": -120,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -9,
+          "y": -7,
+          "z": 0,
+          "sx": -69.28203230275508,
+          "sy": -320,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -9,
+          "y": -12,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": -420,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -7,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": -220,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": -5,
+          "z": 0,
+          "sx": 69.28203230275508,
+          "sy": -160,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": -9,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": -240,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -10,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": -280,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -9,
+          "z": 0,
+          "sx": 346.4101615137754,
+          "sy": -160,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": -9,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": -240,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": -3,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": -40,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 5,
+          "y": 1,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": 120,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 5,
+          "y": 2,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": 140,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 9,
+          "y": 1,
+          "z": 0,
+          "sx": 277.12812921102034,
+          "sy": 200,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 5,
+          "y": 1,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": 120,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 3,
+          "y": 1,
+          "z": 0,
+          "sx": 69.28203230275508,
+          "sy": 80,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 7,
+          "y": 5,
+          "z": 0,
+          "sx": 69.28203230275508,
+          "sy": 240,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 8,
+          "y": 5,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": 260,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 7,
+          "y": 5,
+          "z": 0,
+          "sx": 69.28203230275508,
+          "sy": 240,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 7,
+          "y": 9,
+          "z": 0,
+          "sx": -69.28203230275508,
+          "sy": 320,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 7,
+          "y": 9,
+          "z": 0,
+          "sx": -69.28203230275508,
+          "sy": 320,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": 3,
+          "z": 0,
+          "sx": -69.28203230275508,
+          "sy": 80,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": 3,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": 0,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": 2,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": -40,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": 7,
+          "z": 0,
+          "sx": -346.4101615137754,
+          "sy": 80,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": 3,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": 0,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": 1,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": -40,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -7,
+          "y": 1,
+          "z": 0,
+          "sx": -277.12812921102034,
+          "sy": -120,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -7,
+          "y": 2,
+          "z": 0,
+          "sx": -311.76914536239786,
+          "sy": -100,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -11,
+          "y": -3,
+          "z": 0,
+          "sx": -277.12812921102034,
+          "sy": -280,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -7,
+          "y": 1,
+          "z": 0,
+          "sx": -277.12812921102034,
+          "sy": -120,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -5,
+          "y": -3,
+          "z": 0,
+          "sx": -69.28203230275508,
+          "sy": -160,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -5,
+          "y": -7,
+          "z": 0,
+          "sx": 69.28203230275508,
+          "sy": -240,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -7,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": -220,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -9,
+          "y": -11,
+          "z": 0,
+          "sx": 69.28203230275508,
+          "sy": -400,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -5,
+          "y": -7,
+          "z": 0,
+          "sx": 69.28203230275508,
+          "sy": -240,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -11,
+          "z": 0,
+          "sx": 450.33320996790803,
+          "sy": -180,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -11,
+          "z": 0,
+          "sx": 450.33320996790803,
+          "sy": -180,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 3,
+          "y": -5,
+          "z": 0,
+          "sx": 277.12812921102034,
+          "sy": -40,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 3,
+          "y": -10,
+          "z": 0,
+          "sx": 450.33320996790803,
+          "sy": -140,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -11,
+          "z": 0,
+          "sx": 450.33320996790803,
+          "sy": -180,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 3,
+          "y": 7,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": 200,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 8,
+          "y": 12,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": 400,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 9,
+          "y": 12,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": 420,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -9,
+          "y": -5,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": -280,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -14,
+          "y": -5,
+          "z": 0,
+          "sx": -311.76914536239786,
+          "sy": -380,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -14,
+          "y": -4,
+          "z": 0,
+          "sx": -346.4101615137754,
+          "sy": -360,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -5,
+          "z": 0,
+          "sx": 242.4871130596428,
+          "sy": -60,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 5,
+          "y": -5,
+          "z": 0,
+          "sx": 346.4101615137754,
+          "sy": 0,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 12,
+          "y": 2,
+          "z": 0,
+          "sx": 346.4101615137754,
+          "sy": 280,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 12,
+          "y": 3,
+          "z": 0,
+          "sx": 311.76914536239786,
+          "sy": 300,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 5,
+          "y": -5,
+          "z": 0,
+          "sx": 346.4101615137754,
+          "sy": 0,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 5,
+          "y": -4,
+          "z": 0,
+          "sx": 311.76914536239786,
+          "sy": 20,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 3,
+          "y": 6,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": 180,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 3,
+          "y": 9,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": 240,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": 9,
+          "z": 0,
+          "sx": -450.33320996790803,
+          "sy": 100,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -5,
+          "y": 8,
+          "z": 0,
+          "sx": -450.33320996790803,
+          "sy": 60,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 3,
+          "y": 9,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": 240,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": 8,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": 200,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -8,
+          "y": -4,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": -240,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -11,
+          "y": -7,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": -360,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -11,
+          "y": -14,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": -500,
+          "type": "potential"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -10,
+          "y": -14,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": -480,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -11,
+          "y": -7,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": -360,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -10,
+          "y": -7,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": -340,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    }
+  ]
+}

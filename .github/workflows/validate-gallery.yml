@@ -1,0 +1,28 @@
+name: Validate Gallery
+
+on:
+  pull_request:
+    paths:
+      - 'gallery/**'
+      - '.github/workflows/validate-gallery.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'gallery/**'
+      - '.github/workflows/validate-gallery.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate Gallery content and tests
+        working-directory: gallery
+        run: npm test && npm run validate

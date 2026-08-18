@@ -1,0 +1,2945 @@
+{
+  "header": {
+    "appName": "Escher-Drawing",
+    "appVersion": "2.9.2",
+    "contentType": "streaming"
+  },
+  "version": 1,
+  "palette": [
+    {
+      "top": "#3b82f6",
+      "left": "#ef4444",
+      "right": "#22c55e"
+    },
+    {
+      "top": "#93c5fd",
+      "left": "#fca5a5",
+      "right": "#86efac"
+    },
+    {
+      "top": "#e2e8f0",
+      "left": "#475569",
+      "right": "#94a3b8"
+    }
+  ],
+  "events": [
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 1635
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -1,
+        "z": -1,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 18181
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -1,
+        "z": -2,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 18364
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -1,
+        "z": -3,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 19829
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -1,
+        "z": -4,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 20779
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -1,
+        "z": -5,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 21396
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -1,
+        "z": -6,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 21898
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -1,
+        "z": -7,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 22446
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -1,
+        "z": -8,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 22979
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 32211
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -3,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 32495
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -4,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 32912
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -5,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 33561
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -6,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 33962
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -7,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 34312
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -8,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 34647
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -9,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 34878
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -2,
+        "y": -1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 38745
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -3,
+        "y": -1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 39314
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -4,
+        "y": -1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 39811
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 40396
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -6,
+        "y": -1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 40944
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -7,
+        "y": -1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 41461
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -8,
+        "y": -1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 41944
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -9,
+        "y": -1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 42377
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -2,
+        "z": -8,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 51793
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -3,
+        "z": -8,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 51944
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -4,
+        "z": -8,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 52477
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -5,
+        "z": -8,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 52826
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -6,
+        "z": -8,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 53226
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -7,
+        "z": -8,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 53460
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -8,
+        "z": -8,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 53760
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -9,
+        "z": -8,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 54543
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -9,
+        "z": -7,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 55876
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -9,
+        "z": -6,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 56827
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -9,
+        "z": -5,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 58127
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -9,
+        "z": -4,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 71175
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -8,
+        "z": -4,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 72108
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -7,
+        "z": -4,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 72575
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -6,
+        "z": -4,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 72760
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -5,
+        "z": -4,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 73025
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -4,
+        "z": -4,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 73259
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -3,
+        "z": -4,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 73509
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -2,
+        "z": -4,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 73958
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -2,
+        "y": -9,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 85191
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -3,
+        "y": -9,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 85457
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -4,
+        "y": -9,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 85924
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -9,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 86707
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -6,
+        "y": -9,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 87374
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -7,
+        "y": -9,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 87874
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -8,
+        "y": -9,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 88407
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -9,
+        "y": -9,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 89624
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -9,
+        "y": -8,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 90391
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -9,
+        "y": -7,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 91157
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -9,
+        "y": -6,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 93107
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -9,
+        "y": -5,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 97956
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -8,
+        "y": -5,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 99839
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -7,
+        "y": -5,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 100506
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -6,
+        "y": -5,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 101056
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -5,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 101556
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -4,
+        "y": -5,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 101956
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -3,
+        "y": -5,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 102339
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -2,
+        "y": -5,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 102706
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -9,
+        "y": -1,
+        "z": -1,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 114505
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -9,
+        "y": -1,
+        "z": -2,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 114671
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -9,
+        "y": -1,
+        "z": -3,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 115189
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -9,
+        "y": -1,
+        "z": -4,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 115889
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -9,
+        "y": -1,
+        "z": -5,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 116422
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -9,
+        "y": -1,
+        "z": -6,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 116805
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -9,
+        "y": -1,
+        "z": -7,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 117255
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -9,
+        "y": -1,
+        "z": -8,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 117888
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -8,
+        "y": -1,
+        "z": -8,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 119255
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -7,
+        "y": -1,
+        "z": -8,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 120005
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -6,
+        "y": -1,
+        "z": -8,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 120838
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -1,
+        "z": -8,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 122854
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -1,
+        "z": -7,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 123405
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -1,
+        "z": -6,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 124205
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -1,
+        "z": -5,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 124521
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -1,
+        "z": -4,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 124858
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -1,
+        "z": -3,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 125104
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -1,
+        "z": -2,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 125457
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -1,
+        "z": -1,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 125737
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -2,
+        "y": -9,
+        "z": -4,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 135372
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -3,
+        "y": -9,
+        "z": -4,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 135621
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -4,
+        "y": -9,
+        "z": -4,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 136804
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -9,
+        "y": -5,
+        "z": -1,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 146386
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -9,
+        "y": -5,
+        "z": -2,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 146552
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -9,
+        "y": -5,
+        "z": -3,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 147036
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -2,
+        "z": -8,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 152786
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -3,
+        "z": -8,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 153052
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -4,
+        "z": -8,
+        "isInverted": false,
+        "colors": {
+          "topA": "#3b82f6",
+          "topB": "#3b82f6",
+          "leftA": "#ef4444",
+          "leftB": "#ef4444",
+          "rightA": "#22c55e",
+          "rightB": "#22c55e"
+        }
+      },
+      "delay": 153435
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": -1,
+          "z": 0,
+          "sx": 0,
+          "sy": -40,
+          "type": "potential"
+        }
+      },
+      "delay": 201368
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": -10,
+          "z": 0,
+          "sx": 311.76914536239786,
+          "sy": -220,
+          "type": "potential"
+        }
+      },
+      "delay": 202837
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -10,
+          "y": -10,
+          "z": 0,
+          "sx": 0,
+          "sy": -400,
+          "type": "potential"
+        }
+      },
+      "delay": 204469
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -10,
+          "y": -5,
+          "z": 0,
+          "sx": -173.2050807568877,
+          "sy": -300,
+          "type": "potential"
+        }
+      },
+      "delay": 206072
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -7,
+          "y": -2,
+          "z": 0,
+          "sx": -173.2050807568877,
+          "sy": -180,
+          "type": "potential"
+        }
+      },
+      "delay": 208723
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -10,
+          "y": -2,
+          "z": 0,
+          "sx": -277.12812921102034,
+          "sy": -240,
+          "type": "potential"
+        }
+      },
+      "delay": 209968
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -10,
+          "y": -1,
+          "z": 0,
+          "sx": -311.76914536239786,
+          "sy": -220,
+          "type": "potential"
+        }
+      },
+      "delay": 214619
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": 8,
+          "z": 0,
+          "sx": -311.76914536239786,
+          "sy": 140,
+          "type": "potential"
+        }
+      },
+      "delay": 218087
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 4,
+          "y": 8,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": 240,
+          "type": "potential"
+        }
+      },
+      "delay": 220085
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 4,
+          "y": 5,
+          "z": 0,
+          "sx": -34.64101615137754,
+          "sy": 180,
+          "type": "potential"
+        }
+      },
+      "delay": 221951
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 7,
+          "y": 8,
+          "z": 0,
+          "sx": -34.64101615137754,
+          "sy": 300,
+          "type": "potential"
+        }
+      },
+      "delay": 222917
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 8,
+          "y": 8,
+          "z": 0,
+          "sx": 0,
+          "sy": 320,
+          "type": "potential"
+        }
+      },
+      "delay": 223670
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 8,
+          "y": -1,
+          "z": 0,
+          "sx": 311.76914536239786,
+          "sy": 140,
+          "type": "potential"
+        }
+      },
+      "delay": 225767
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 3,
+          "y": -6,
+          "z": 0,
+          "sx": 311.76914536239786,
+          "sy": -60,
+          "type": "potential"
+        }
+      },
+      "delay": 226650
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 3,
+          "y": 2,
+          "z": 0,
+          "sx": 34.64101615137754,
+          "sy": 100,
+          "type": "potential"
+        }
+      },
+      "delay": 227915
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": -1,
+          "z": 0,
+          "sx": 34.64101615137754,
+          "sy": -20,
+          "type": "potential"
+        }
+      },
+      "delay": 229566
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": -9,
+          "z": 0,
+          "sx": 311.76914536239786,
+          "sy": -180,
+          "type": "potential"
+        }
+      },
+      "delay": 230649
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": -10,
+          "z": 0,
+          "sx": 311.76914536239786,
+          "sy": -220,
+          "type": "existing"
+        }
+      },
+      "delay": 231336
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 231336
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": -1,
+          "z": 0,
+          "sx": 0,
+          "sy": -40,
+          "type": "existing"
+        }
+      },
+      "delay": 233183
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 8,
+          "y": 8,
+          "z": 0,
+          "sx": 0,
+          "sy": 320,
+          "type": "existing"
+        }
+      },
+      "delay": 234416
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 234416
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": -1,
+          "z": 0,
+          "sx": 0,
+          "sy": -40,
+          "type": "existing"
+        }
+      },
+      "delay": 235814
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -10,
+          "y": -1,
+          "z": 0,
+          "sx": -311.76914536239786,
+          "sy": -220,
+          "type": "existing"
+        }
+      },
+      "delay": 237133
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 237134
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 3,
+          "y": -6,
+          "z": 0,
+          "sx": 311.76914536239786,
+          "sy": -60,
+          "type": "existing"
+        }
+      },
+      "delay": 244381
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": -6,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": -120,
+          "type": "potential"
+        }
+      },
+      "delay": 245066
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": -5,
+          "z": 0,
+          "sx": 173.2050807568877,
+          "sy": -100,
+          "type": "potential"
+        }
+      },
+      "delay": 246115
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -5,
+          "z": 0,
+          "sx": 242.4871130596428,
+          "sy": -60,
+          "type": "potential"
+        }
+      },
+      "delay": 246865
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": 1,
+          "z": 0,
+          "sx": 34.64101615137754,
+          "sy": 60,
+          "type": "potential"
+        }
+      },
+      "delay": 248215
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": 1,
+          "z": 0,
+          "sx": 34.64101615137754,
+          "sy": 60,
+          "type": "existing"
+        }
+      },
+      "delay": 249347
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 249348
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 0,
+          "y": -4,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": -80,
+          "type": "potential"
+        }
+      },
+      "delay": 250748
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -4,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": -40,
+          "type": "potential"
+        }
+      },
+      "delay": 251481
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": -4,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": -40,
+          "type": "existing"
+        }
+      },
+      "delay": 253381
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 253382
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -7,
+          "y": -2,
+          "z": 0,
+          "sx": -173.2050807568877,
+          "sy": -180,
+          "type": "existing"
+        }
+      },
+      "delay": 259477
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": -2,
+          "z": 0,
+          "sx": 0,
+          "sy": -80,
+          "type": "potential"
+        }
+      },
+      "delay": 260446
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": -5,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": -140,
+          "type": "potential"
+        }
+      },
+      "delay": 261598
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -10,
+          "y": -5,
+          "z": 0,
+          "sx": -173.2050807568877,
+          "sy": -300,
+          "type": "existing"
+        }
+      },
+      "delay": 263170
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 263171
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": -4,
+          "z": 0,
+          "sx": 69.28203230275508,
+          "sy": -120,
+          "type": "potential"
+        }
+      },
+      "delay": 264362
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -8,
+          "y": -4,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": -240,
+          "type": "potential"
+        }
+      },
+      "delay": 265215
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -6,
+          "y": -2,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": -160,
+          "type": "potential"
+        }
+      },
+      "delay": 265979
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -5,
+          "y": -2,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": -140,
+          "type": "potential"
+        }
+      },
+      "delay": 266847
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -7,
+          "y": -4,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": -220,
+          "type": "potential"
+        }
+      },
+      "delay": 267566
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -7,
+          "y": -4,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": -220,
+          "type": "existing"
+        }
+      },
+      "delay": 269215
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 269215
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 4,
+          "y": 5,
+          "z": 0,
+          "sx": -34.64101615137754,
+          "sy": 180,
+          "type": "existing"
+        }
+      },
+      "delay": 274047
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": 0,
+          "z": 0,
+          "sx": -34.64101615137754,
+          "sy": -20,
+          "type": "potential"
+        }
+      },
+      "delay": 274846
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": 0,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": -60,
+          "type": "potential"
+        }
+      },
+      "delay": 276730
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 3,
+          "y": 6,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": 180,
+          "type": "potential"
+        }
+      },
+      "delay": 278030
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 3,
+          "y": 4,
+          "z": 0,
+          "sx": -34.64101615137754,
+          "sy": 140,
+          "type": "potential"
+        }
+      },
+      "delay": 278863
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": 3,
+          "z": 0,
+          "sx": -34.64101615137754,
+          "sy": 100,
+          "type": "potential"
+        }
+      },
+      "delay": 279431
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": 5,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": 140,
+          "type": "potential"
+        }
+      },
+      "delay": 280380
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": 5,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": 140,
+          "type": "existing"
+        }
+      },
+      "delay": 280879
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 280879
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 4,
+          "y": 8,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": 240,
+          "type": "existing"
+        }
+      },
+      "delay": 289962
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": 0,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": -80,
+          "type": "potential"
+        }
+      },
+      "delay": 290695
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -3,
+          "y": 0,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": -60,
+          "type": "existing"
+        }
+      },
+      "delay": 291378
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 291379
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -8,
+          "y": 0,
+          "z": 0,
+          "sx": -277.12812921102034,
+          "sy": -160,
+          "type": "potential"
+        }
+      },
+      "delay": 296395
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": 7,
+          "z": 0,
+          "sx": -277.12812921102034,
+          "sy": 120,
+          "type": "potential"
+        }
+      },
+      "delay": 297463
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 2,
+          "y": 7,
+          "z": 0,
+          "sx": -173.2050807568877,
+          "sy": 180,
+          "type": "potential"
+        }
+      },
+      "delay": 298345
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -5,
+          "y": 0,
+          "z": 0,
+          "sx": -173.2050807568877,
+          "sy": -100,
+          "type": "potential"
+        }
+      },
+      "delay": 299263
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -8,
+          "y": 0,
+          "z": 0,
+          "sx": -277.12812921102034,
+          "sy": -160,
+          "type": "existing"
+        }
+      },
+      "delay": 300562
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 300563
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": -6,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": -160,
+          "type": "potential"
+        }
+      },
+      "delay": 303644
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": -9,
+          "z": 0,
+          "sx": 242.4871130596428,
+          "sy": -220,
+          "type": "potential"
+        }
+      },
+      "delay": 304494
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -9,
+          "y": -9,
+          "z": 0,
+          "sx": 0,
+          "sy": -360,
+          "type": "potential"
+        }
+      },
+      "delay": 305482
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -9,
+          "y": -6,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": -300,
+          "type": "potential"
+        }
+      },
+      "delay": 306258
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": -6,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": -160,
+          "type": "existing"
+        }
+      },
+      "delay": 307213
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 307214
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 4,
+          "y": 3,
+          "z": 0,
+          "sx": 34.64101615137754,
+          "sy": 140,
+          "type": "potential"
+        }
+      },
+      "delay": 308478
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 7,
+          "y": 6,
+          "z": 0,
+          "sx": 34.64101615137754,
+          "sy": 260,
+          "type": "potential"
+        }
+      },
+      "delay": 309163
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 7,
+          "y": -1,
+          "z": 0,
+          "sx": 277.12812921102034,
+          "sy": 120,
+          "type": "potential"
+        }
+      },
+      "delay": 310030
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 4,
+          "y": -4,
+          "z": 0,
+          "sx": 277.12812921102034,
+          "sy": 0,
+          "type": "potential"
+        }
+      },
+      "delay": 310593
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 4,
+          "y": 3,
+          "z": 0,
+          "sx": 34.64101615137754,
+          "sy": 140,
+          "type": "existing"
+        }
+      },
+      "delay": 311461
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 311462
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 6,
+          "y": 5,
+          "z": 0,
+          "sx": 34.64101615137754,
+          "sy": 220,
+          "type": "potential"
+        }
+      },
+      "delay": 312310
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 6,
+          "y": -1,
+          "z": 0,
+          "sx": 242.4871130596428,
+          "sy": 100,
+          "type": "potential"
+        }
+      },
+      "delay": 313112
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 4,
+          "y": -3,
+          "z": 0,
+          "sx": 242.4871130596428,
+          "sy": 20,
+          "type": "potential"
+        }
+      },
+      "delay": 313694
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 4,
+          "y": -3,
+          "z": 0,
+          "sx": 242.4871130596428,
+          "sy": 20,
+          "type": "existing"
+        }
+      },
+      "delay": 315994
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 315995
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 6,
+          "y": -1,
+          "z": 0,
+          "sx": 242.4871130596428,
+          "sy": 100,
+          "type": "existing"
+        }
+      },
+      "delay": 316676
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 7,
+          "y": -1,
+          "z": 0,
+          "sx": 277.12812921102034,
+          "sy": 120,
+          "type": "existing"
+        }
+      },
+      "delay": 317310
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 317311
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -8,
+          "y": -6,
+          "z": 0,
+          "sx": -69.28203230275508,
+          "sy": -280,
+          "type": "potential"
+        }
+      },
+      "delay": 318809
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -8,
+          "y": -8,
+          "z": 0,
+          "sx": 0,
+          "sy": -320,
+          "type": "potential"
+        }
+      },
+      "delay": 320446
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": -8,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": -200,
+          "type": "potential"
+        }
+      },
+      "delay": 321460
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": -8,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": -200,
+          "type": "existing"
+        }
+      },
+      "delay": 321960
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 321960
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -9,
+          "y": -9,
+          "z": 0,
+          "sx": 0,
+          "sy": -360,
+          "type": "existing"
+        }
+      },
+      "delay": 322826
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -8,
+          "y": -8,
+          "z": 0,
+          "sx": 0,
+          "sy": -320,
+          "type": "existing"
+        }
+      },
+      "delay": 323360
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 323361
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 1,
+          "y": 6,
+          "z": 0,
+          "sx": -173.2050807568877,
+          "sy": 140,
+          "type": "potential"
+        }
+      },
+      "delay": 325457
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": 6,
+          "z": 0,
+          "sx": -242.4871130596428,
+          "sy": 100,
+          "type": "potential"
+        }
+      },
+      "delay": 326147
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -7,
+          "y": 0,
+          "z": 0,
+          "sx": -242.4871130596428,
+          "sy": -140,
+          "type": "potential"
+        }
+      },
+      "delay": 327109
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -7,
+          "y": 0,
+          "z": 0,
+          "sx": -242.4871130596428,
+          "sy": -140,
+          "type": "existing"
+        }
+      },
+      "delay": 329025
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 329027
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": 6,
+          "z": 0,
+          "sx": -242.4871130596428,
+          "sy": 100,
+          "type": "existing"
+        }
+      },
+      "delay": 330090
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": 7,
+          "z": 0,
+          "sx": -277.12812921102034,
+          "sy": 120,
+          "type": "existing"
+        }
+      },
+      "delay": 330960
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {},
+      "delay": 330961
+    }
+  ]
+}

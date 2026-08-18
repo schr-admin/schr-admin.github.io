@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schr-admin.github.io/gallery/schema/manifest.schema.json",
+  "title": "Escher Blocks Gallery manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "updated", "items"],
+  "properties": {
+    "version": { "const": 1 },
+    "updated": { "type": "string", "format": "date-time" },
+    "items": {
+      "type": "array",
+      "maxItems": 1000,
+      "items": { "$ref": "#/$defs/item" }
+    }
+  },
+  "$defs": {
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "kind",
+        "displayName",
+        "file",
+        "thumbnail",
+        "bytes",
+        "tags",
+        "origin",
+        "author",
+        "publishedAt"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^(draw|rec)-[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "kind": { "enum": ["drawing", "recording"] },
+        "displayName": { "type": "string", "minLength": 1, "maxLength": 100 },
+        "file": { "type": "string", "pattern": "^items/[a-z0-9-]+(?:\\.rec)?\\.schr$" },
+        "thumbnail": { "type": "string", "pattern": "^items/[a-z0-9-]+\\.png$" },
+        "bytes": { "type": "integer", "minimum": 1, "maximum": 1000000 },
+        "tags": {
+          "type": "array",
+          "maxItems": 20,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "maxLength": 40
+          }
+        },
+        "origin": { "enum": ["official", "community"] },
+        "author": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["name"],
+          "properties": {
+            "name": { "type": "string", "minLength": 1, "maxLength": 100 },
+            "url": { "type": "string", "format": "uri", "maxLength": 2048 }
+          }
+        },
+        "publishedAt": { "type": "string", "format": "date" }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "schr-gallery-content",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-gallery.mjs .",
+    "test": "node --test tests/*.test.mjs"
+  }
+}
