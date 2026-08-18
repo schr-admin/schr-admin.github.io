@@ -36,7 +36,7 @@ function expectFailure(root, pattern) {
 
 test('accepts the published baseline catalog', () => {
   const result = validateGallery(GALLERY_ROOT);
-  assert.equal(result.itemCount, 18);
+  assert.equal(result.itemCount, 20);
 });
 
 test('rejects duplicate ids', (t) => {

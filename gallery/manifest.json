@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-18T18:00:00Z",
+  "updated": "2026-08-18T18:57:44Z",
   "items": [
     {
       "id": "draw-cube-cube",
@@ -111,6 +111,18 @@
       "publishedAt": "2026-08-18"
     },
     {
+      "id": "draw-twister",
+      "kind": "drawing",
+      "displayName": "Twister",
+      "file": "items/draw-twister.schr",
+      "thumbnail": "items/draw-twister.png",
+      "bytes": 17940,
+      "tags": [],
+      "origin": "official",
+      "author": { "name": "art.escher", "url": "https://instagram.com/art.escher" },
+      "publishedAt": "2026-08-18"
+    },
+    {
       "id": "rec-clover-leaf",
       "kind": "recording",
       "displayName": "Clover Leaf",
@@ -213,6 +225,18 @@
       "file": "items/rec-coil-line.rec.schr",
       "thumbnail": "items/rec-coil-line.png",
       "bytes": 39120,
+      "tags": [],
+      "origin": "official",
+      "author": { "name": "art.escher", "url": "https://instagram.com/art.escher" },
+      "publishedAt": "2026-08-18"
+    },
+    {
+      "id": "rec-twist",
+      "kind": "recording",
+      "displayName": "Twist",
+      "file": "items/rec-twist.rec.schr",
+      "thumbnail": "items/rec-twist.png",
+      "bytes": 80420,
       "tags": [],
       "origin": "official",
       "author": { "name": "art.escher", "url": "https://instagram.com/art.escher" },
