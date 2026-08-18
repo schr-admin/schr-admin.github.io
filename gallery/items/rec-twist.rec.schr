@@ -1,0 +1,4178 @@
+{
+  "header": {
+    "appName": "Escher-Drawing",
+    "appVersion": "2.9.2",
+    "contentType": "streaming"
+  },
+  "version": 1,
+  "palette": [
+    {
+      "top": "#3b82f6",
+      "left": "#ef4444",
+      "right": "#22c55e"
+    },
+    {
+      "top": "#93c5fd",
+      "left": "#fca5a5",
+      "right": "#86efac"
+    },
+    {
+      "top": "#e2e8f0",
+      "left": "#475569",
+      "right": "#94a3b8"
+    },
+    {
+      "top": "#fbbf24",
+      "left": "#f97316",
+      "right": "#ec4899"
+    },
+    {
+      "top": "#06b6d4",
+      "left": "#0284c7",
+      "right": "#14b8a6"
+    },
+    {
+      "top": "#84cc16",
+      "left": "#16a34a",
+      "right": "#059669"
+    },
+    {
+      "top": "#c084fc",
+      "left": "#a855f7",
+      "right": "#d946ef"
+    },
+    {
+      "top": "#d97706",
+      "left": "#92400e",
+      "right": "#a16207"
+    },
+    {
+      "top": "#facc15",
+      "left": "#f43f5e",
+      "right": "#10b981"
+    }
+  ],
+  "events": [
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -8,
+          "y": -13,
+          "z": 0,
+          "sx": 173.2050807568877,
+          "sy": -420,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": -7,
+          "z": 0,
+          "sx": 173.2050807568877,
+          "sy": -180,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": -7,
+          "z": 0,
+          "sx": 173.2050807568877,
+          "sy": -180,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": 4,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": 40,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -8,
+          "y": -13,
+          "z": 0,
+          "sx": 173.2050807568877,
+          "sy": -420,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -8,
+          "y": -2,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": -200,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -8,
+          "y": -2,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": -200,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -6,
+          "y": 0,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": -120,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": 4,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": 40,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": 2,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": -40,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -6,
+          "y": 0,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": -120,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -6,
+          "y": -9,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": -300,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": 2,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": -40,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -7,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": -220,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -6,
+          "y": -9,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": -300,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -7,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": -220,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -8,
+          "y": -13,
+          "z": 0,
+          "sx": 173.2050807568877,
+          "sy": -420,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -7,
+          "y": -13,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": -400,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -7,
+          "y": -13,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": -400,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": -7,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": -160,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": -7,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": -160,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": -7,
+          "z": 0,
+          "sx": 173.2050807568877,
+          "sy": -180,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -5,
+          "y": -8,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": -260,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -5,
+          "y": -1,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": -120,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -6,
+          "y": 0,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": -120,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": 0,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": -80,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -5,
+          "y": -1,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": -120,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -1,
+          "z": 0,
+          "sx": -103.92304845413263,
+          "sy": -100,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": 0,
+          "z": 0,
+          "sx": -34.64101615137754,
+          "sy": -20,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 3,
+          "y": 0,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": 60,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": -1,
+          "z": 0,
+          "sx": 0,
+          "sy": -40,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 3,
+          "y": -1,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": 40,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 3,
+          "y": -1,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": 40,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 8,
+          "y": 4,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": 240,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 3,
+          "y": 0,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": 60,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 6,
+          "y": 3,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": 180,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 8,
+          "y": 4,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": 240,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -2,
+          "y": 4,
+          "z": 0,
+          "sx": -207.84609690826525,
+          "sy": 40,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 6,
+          "y": 3,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": 180,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": 3,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": 40,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": 3,
+          "z": 0,
+          "sx": -138.56406460551017,
+          "sy": 40,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": -7,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": -160,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -5,
+          "y": -3,
+          "z": 0,
+          "sx": -69.28203230275508,
+          "sy": -160,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -4,
+          "y": -3,
+          "z": 0,
+          "sx": -34.64101615137754,
+          "sy": -140,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": -3,
+          "z": 0,
+          "sx": 69.28203230275508,
+          "sy": -80,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 3,
+          "y": -3,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": 0,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 3,
+          "y": -3,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": 0,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 3,
+          "y": -1,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": 40,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 3,
+          "y": -3,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": 0,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 8,
+          "y": 2,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": 200,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 8,
+          "y": 2,
+          "z": 0,
+          "sx": 207.84609690826525,
+          "sy": 200,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 8,
+          "y": 4,
+          "z": 0,
+          "sx": 138.56406460551017,
+          "sy": 240,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": -1,
+          "y": 1,
+          "z": 0,
+          "sx": -69.28203230275508,
+          "sy": 0,
+          "type": "existing"
+        },
+        "thickness": 6
+      }
+    },
+    {
+      "type": "START_LINE",
+      "payload": {
+        "point": {
+          "x": 4,
+          "y": 1,
+          "z": 0,
+          "sx": 103.92304845413263,
+          "sy": 100,
+          "type": "existing"
+        }
+      }
+    },
+    {
+      "type": "FINISH_LINE",
+      "payload": {}
+    },
+    {
+      "type": "SET_LAYER_VISIBILITY",
+      "payload": {
+        "layerId": 0,
+        "visible": false
+      }
+    },
+    {
+      "type": "SET_LAYER_VISIBILITY",
+      "payload": {
+        "layerId": 0,
+        "visible": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#9edb8a",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "0,0,0",
+        "triangle": "TOP_B",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 1,
+        "y": 0,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "1,0,0",
+        "triangle": "TOP_A",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 2,
+        "y": 0,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "2,0,0",
+        "triangle": "TOP_A",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 3,
+        "y": 0,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "3,0,0",
+        "triangle": "TOP_A",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 4,
+        "y": 0,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 4,
+        "y": 1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#9edb8a",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 5,
+        "y": 1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 5,
+        "y": 2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#9edb8a",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 6,
+        "y": 2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 6,
+        "y": 3,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#9edb8a",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 7,
+        "y": 3,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 7,
+        "y": 4,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#9edb8a",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 8,
+        "y": 4,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "7,4,0",
+        "triangle": "TOP_B",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 6,
+        "y": 4,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#9edb8a",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "6,4,0",
+        "triangle": "TOP_B",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 5,
+        "y": 4,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#9edb8a",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "5,4,0",
+        "triangle": "TOP_B",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 4,
+        "y": 4,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#9edb8a",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "4,4,0",
+        "triangle": "TOP_B",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 3,
+        "y": 4,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#9edb8a",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "3,4,0",
+        "triangle": "TOP_B",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 2,
+        "y": 4,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#9edb8a",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "2,4,0",
+        "triangle": "TOP_B",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 1,
+        "y": 4,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#9edb8a",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "1,4,0",
+        "triangle": "TOP_B",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 0,
+        "y": 4,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#9edb8a",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "0,4,0",
+        "triangle": "TOP_B",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": 4,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#9edb8a",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-1,4,0",
+        "triangle": "TOP_B",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": 3,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-1,3,0",
+        "triangle": "TOP_A",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": 2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-1,2,0",
+        "triangle": "TOP_A",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": 1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-1,1,0",
+        "triangle": "TOP_A",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": 0,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-1,0,0",
+        "triangle": "TOP_A",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-1,-1,0",
+        "triangle": "TOP_A",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-1,-2,0",
+        "triangle": "TOP_A",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -3,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-1,-3,0",
+        "triangle": "TOP_A",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -4,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-1,-4,0",
+        "triangle": "TOP_A",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -5,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-1,-5,0",
+        "triangle": "TOP_A",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -6,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-1,-6,0",
+        "triangle": "TOP_A",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -4,
+        "y": 0,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": 0,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#9edb8a",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-4,0,0",
+        "triangle": "TOP_A",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-5,0,0",
+        "triangle": "TOP_B",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-5,-1,0",
+        "triangle": "TOP_A",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-5,-2,0",
+        "triangle": "TOP_A",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -3,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-5,-3,0",
+        "triangle": "TOP_A",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -4,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-5,-4,0",
+        "triangle": "TOP_A",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -5,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-5,-5,0",
+        "triangle": "TOP_A",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -6,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-5,-6,0",
+        "triangle": "TOP_A",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -7,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-5,-7,0",
+        "triangle": "TOP_A",
+        "color": "#9edb8a"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -8,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#9edb8a",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 5,
+        "y": 0,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ed2c3e",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "4,0,0",
+        "triangle": "TOP_A",
+        "color": "#ed2c3e"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 4,
+        "y": -1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ed2c3e",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "4,-1,0",
+        "triangle": "TOP_A",
+        "color": "#ed2c3e"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 4,
+        "y": -2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ed2c3e",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 5,
+        "y": -1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ed2c3e",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "5,0,0",
+        "triangle": "TOP_A",
+        "color": "#ed2c3e"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 6,
+        "y": 0,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ed2c3e",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 6,
+        "y": 1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ed2c3e",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "6,1,0",
+        "triangle": "TOP_B",
+        "color": "#ed2c3e"
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "6,2,0",
+        "triangle": "TOP_A",
+        "color": "#ed2c3e"
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "5,1,0",
+        "triangle": "TOP_A",
+        "color": "#ed2c3e"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 7,
+        "y": 2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ed2c3e",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "7,3,0",
+        "triangle": "TOP_A",
+        "color": "#ed2c3e"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 8,
+        "y": 3,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ed2c3e",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "7,2,0",
+        "triangle": "TOP_A",
+        "color": "#ed2c3e"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 7,
+        "y": 1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ed2c3e",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 8,
+        "y": 2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ed2c3e",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "8,3,0",
+        "triangle": "TOP_A",
+        "color": "#ed2c3e"
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "8,4,0",
+        "triangle": "TOP_A",
+        "color": "#ed2c3e"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -6,
+        "y": -11,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ed2c3e",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -7,
+        "y": -12,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ed2c3e",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -6,
+        "y": -12,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ed2c3e",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -11,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ed2c3e",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -10,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ed2c3e",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -4,
+        "y": -10,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ed2c3e",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -4,
+        "y": -9,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ed2c3e",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -3,
+        "y": -9,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ed2c3e",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -3,
+        "y": -8,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ed2c3e",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -2,
+        "y": -8,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ed2c3e",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -2,
+        "y": -7,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ed2c3e",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -1,
+        "y": -7,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ed2c3e",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 5,
+        "y": 3,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "5,3,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 4,
+        "y": 3,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "4,3,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "6,3,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "5,2,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 4,
+        "y": 2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "4,2,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 3,
+        "y": 2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "3,2,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 2,
+        "y": 2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ddbe55",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 1,
+        "y": 2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "1,2,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 0,
+        "y": 2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "0,2,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 0,
+        "y": 3,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 1,
+        "y": 3,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "2,2,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 3,
+        "y": 3,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "3,3,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 2,
+        "y": 3,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "2,3,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "1,3,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "0,3,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 2,
+        "y": -1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ddbe55",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 1,
+        "y": -1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "1,-1,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 0,
+        "y": -1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "0,-1,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 0,
+        "y": -2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ddbe55",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "0,-2,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 1,
+        "y": -2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ddbe55",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "1,-2,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 2,
+        "y": -2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ddbe55",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "2,-2,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 3,
+        "y": -2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ddbe55",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "3,-2,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": 3,
+        "y": -1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "3,-1,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "2,-1,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -3,
+        "y": 3,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -2,
+        "y": 3,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ddbe55",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -2,
+        "y": 4,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-2,3,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -2,
+        "y": 2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ddbe55",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -3,
+        "y": 2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-3,2,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -3,
+        "y": 1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ddbe55",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-3,1,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -3,
+        "y": 0,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ddbe55",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-3,0,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -3,
+        "y": -1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ddbe55",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-3,-1,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -3,
+        "y": -2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ddbe55",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-3,-2,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -2,
+        "y": -2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ddbe55",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -2,
+        "y": -1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-2,-1,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -2,
+        "y": 0,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-2,0,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -2,
+        "y": 1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-2,1,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-2,2,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-2,-2,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -2,
+        "y": -3,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ddbe55",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-2,-3,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -2,
+        "y": -4,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ddbe55",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -3,
+        "y": -4,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-3,-4,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -3,
+        "y": -3,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-3,-3,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -3,
+        "y": -5,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ddbe55",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-3,-5,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -3,
+        "y": -6,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ddbe55",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-3,-6,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -2,
+        "y": -6,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ddbe55",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -2,
+        "y": -5,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-2,-5,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-2,-4,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-2,-6,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-2,-7,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -3,
+        "y": -7,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-3,-7,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -4,
+        "y": -7,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -4,
+        "y": -8,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ddbe55",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-4,-8,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-3,-8,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-4,-9,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -5,
+        "y": -9,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-5,-10,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -6,
+        "y": -10,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-6,-10,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -6,
+        "y": -9,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-5,-9,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-5,-8,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-6,-11,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -7,
+        "y": -11,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-7,-12,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-7,-11,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -7,
+        "y": -10,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-7,-10,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -7,
+        "y": -9,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-7,-9,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -7,
+        "y": -8,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-7,-8,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -7,
+        "y": -7,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -6,
+        "y": -8,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ddbe55",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-6,-8,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-6,-9,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -6,
+        "y": -7,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-6,-7,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -6,
+        "y": -6,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-6,-6,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -6,
+        "y": -5,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-6,-5,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -6,
+        "y": -4,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-6,-4,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -6,
+        "y": -3,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-6,-3,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-7,-7,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -7,
+        "y": -6,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-7,-6,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -7,
+        "y": -5,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-7,-5,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -7,
+        "y": -4,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-7,-4,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -7,
+        "y": -3,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-7,-3,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -7,
+        "y": -2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-7,-2,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -7,
+        "y": -1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -6,
+        "y": -1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ddbe55",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -6,
+        "y": 0,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-6,-1,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -6,
+        "y": -2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ddbe55",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-6,-2,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -4,
+        "y": -2,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": null,
+          "topB": "#ddbe55",
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "ADD_CUBE",
+      "payload": {
+        "x": -4,
+        "y": -1,
+        "z": 0,
+        "isInverted": false,
+        "colors": {
+          "topA": "#ddbe55",
+          "topB": null,
+          "leftA": null,
+          "leftB": null,
+          "rightA": null,
+          "rightB": null
+        },
+        "skipMirror": true
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-4,-1,0",
+        "triangle": "TOP_B",
+        "color": "#ddbe55"
+      }
+    },
+    {
+      "type": "PAINT_TRIANGLE",
+      "payload": {
+        "id": "-4,-2,0",
+        "triangle": "TOP_A",
+        "color": "#ddbe55"
+      }
+    }
+  ]
+}
